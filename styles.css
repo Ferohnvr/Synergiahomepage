@@ -79,12 +79,13 @@ footer {
     position: relative;
 }
 
+/* Responsive Styles */
 @media (max-width: 768px) {
     .nav-links {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 60px; /* Abstand vom Header */
         left: 0;
         background-color: black;
         width: 100%;
@@ -93,13 +94,14 @@ footer {
 
     .nav-links li {
         margin: 10px 0;
+        text-align: center; /* zentriert die Links im Dropdown */
     }
 
     .hamburger {
-        display: flex;
+        display: flex; /* Hamburger-Menü sichtbar auf mobilen Geräten */
     }
 
     .nav-active {
-        display: flex;
+        display: flex; /* zeigt das Menü an, wenn aktiv */
     }
 }
