@@ -26,12 +26,15 @@ header {
 
 nav {
     position: relative;
+    display: flex;
+    align-items: center; /* zentriert den Hamburger und die Links vertikal */
 }
 
 .hamburger {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    margin-right: 20px; /* Abstand zwischen Hamburger-Menü und Logo */
 }
 
 .bar {
@@ -86,7 +89,7 @@ footer {
         flex-direction: column;
         position: absolute;
         top: 60px; /* Abstand vom Header */
-        left: 0;
+        left: 0; /* Links ausrichten */
         background-color: black;
         width: 100%;
         padding: 10px 0;
