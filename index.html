@@ -1,17 +1,21 @@
-<link rel="stylesheet" href="styles.css">
 <!DOCTYPE html>
 <html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Synergia - Startseite</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Optional: Für das Styling -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Willkommen bei Synergia</h1>
+        <div class="logo">Synergia</div>
         <nav>
-            <ul>
+            <div class="hamburger" id="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="index.html">Startseite</a></li>
                 <li><a href="dienstleistungen.html">Dienstleistungen</a></li>
                 <li><a href="kontakt.html">Kontakt</a></li>
@@ -19,34 +23,15 @@
             </ul>
         </nav>
     </header>
-    
     <main>
-        <section id="einleitung">
-            <h2>Über uns</h2>
-            <p>Synergia ist ein innovatives Unternehmen, das sich auf die Bereitstellung hochwertiger Dienstleistungen in verschiedenen Bereichen spezialisiert hat. Unser Ziel ist es, unseren Kunden maßgeschneiderte Lösungen zu bieten, die ihren individuellen Bedürfnissen entsprechen.</p>
-        </section>
-
-        <section id="services">
-            <h2>Unsere Dienstleistungen</h2>
-            <p>Wir bieten eine Vielzahl von Dienstleistungen an, darunter:</p>
-            <ul>
-                <li>Beratung und Strategieentwicklung</li>
-                <li>Projektmanagement</li>
-                <li>IT-Dienstleistungen</li>
-                <li>Marketing und Kommunikation</li>
-            </ul>
-            <p>Besuchen Sie unsere <a href="dienstleistungen.html">Dienstleistungsseite</a>, um mehr zu erfahren.</p>
-        </section>
-
-        <section id="kontakt">
-            <h2>Kontaktieren Sie uns</h2>
-            <p>Haben Sie Fragen oder benötigen Sie weitere Informationen? Kontaktieren Sie uns gerne!</p>
-            <p>Sie können uns per E-Mail unter <a href="mailto:info@synergia.de">info@synergia.de</a> erreichen oder unser <a href="kontakt.html">Kontaktformular</a> nutzen.</p>
+        <section class="hero">
+            <h1>Willkommen bei Synergia</h1>
+            <p>Ihr Partner für effektives Marketing, Influencer Management und Handel/Affiliate. Wir bieten maßgeschneiderte Lösungen, um Ihr Unternehmen auf die nächste Stufe zu bringen.</p>
         </section>
     </main>
-
     <footer>
-        <p>&copy; 2024 Synergia Group - Alle Rechte vorbehalten.</p>
+        <p>&copy; 2024 Synergia. Alle Rechte vorbehalten.</p>
     </footer>
+    <script src="script.js"></script> <!-- Hier wird script.js eingebunden -->
 </body>
 </html>
